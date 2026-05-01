@@ -1,0 +1,25 @@
+{
+  "folders": [
+    { "name": "🌐 Frontend", "path": "frontend" },
+    { "name": "⚙️ Backend", "path": "backend" },
+    { "name": "📁 Root", "path": "." }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "tailwindCSS.includeLanguages": { "javascript": "javascript", "html": "html" },
+    "css.validate": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "dsznajder.es7-react-js-snippets",
+      "dbaeumer.vscode-eslint",
+      "ms-vscode.vscode-node-extension-pack"
+    ]
+  }
+}

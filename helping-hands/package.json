@@ -1,0 +1,17 @@
+{
+  "name": "helping-hands",
+  "version": "1.0.0",
+  "description": "Helping Hands - Social Service & Donation Platform",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "twilio": "^6.0.0"
+  }
+}
