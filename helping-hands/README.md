@@ -189,5 +189,3 @@ cd frontend && npm run build
 ## 📞 Support
 
 Email: hello@helpinghands.org.in  
-Registered NGO under Societies Registration Act, 1860  
-Reg: HH/2019/HYD/12843
